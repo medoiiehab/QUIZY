@@ -1,0 +1,27 @@
+html, body {
+    height: 100%;
+}
+h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+body {font-weight: bolder;
+    background-color: #2B4865;
+    color: #F9F9F9;
+}
+.navybar {
+    background-color: #00152d;
+    color: #F9F9F9;
+}
+
+.lightnavybar {
+    background-color: #d3d6d7;
+    color :#00152d;
+}
+
+.reverseNavy {
+    background-color: #F9F9F9;
+    color: #002B5B;
+}
+.reverseLightNavy{
+    background-color: #00152d;
+    color: #256D85;
+}
+

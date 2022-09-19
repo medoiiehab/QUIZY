@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+    <head>
+        <title>Quizy</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3pro.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link rel="stylesheet" href="Css/Styles.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+        <script src="https://kit.fontawesome.com/d93fe27604.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/e78f8f1093.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <!-- the laptop/PC version of the quiz-->
+        <section id="PC" class="w3-hide-small w3-hide-medium">
+            <!-- Navbar (sit on top) -->
+<div class="w3-top">
+    <div class="w3-bar navybar w3-wide w3-padding w3-card">
+      <a href="#home" class="w3-bar-item w3-button"><b>quiz</b> lock</a>
+     
+      <div class="w3-right">
+        <a href="#about" class="w3-bar-item w3-btn">About</a>
+
+        <a href="#projects" class="w3-bar-item w3-btn"> to Project</a>
+        
+        <a href="#contact" class="w3-bar-item w3-btn">then Continue</a>
+      </div>
+    </div>
+  </div>
+
+<div class="" id="ending">
+  <!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+    <img class="w3-image" src="Pics/BG.jpg" alt="figure it out" width="100%" height="auto">
+    <div class="w3-display-middle w3-margin-top w3-center">
+      <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>Quiz</b></span>
+         <span onclick="lockabout()" class="w3-hide-small w3-text-light-grey">Lock</span></h1>
+      <br><h2 class="w3-black w3-opacity">in order to open the main quiz, you must look for the lock in this simple quiz</h2>
+    </div>
+  </header>
+<div class="lightnavybar w3-container" style="margin: 40px;">
+  <!--the about section-->
+  <div id="about" class="w3-hide-large">
+    
+  <div class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+    <img class="w3-image" src="Pics/team.jpg" alt="figure it out" width="100%" height="auto">
+    <div class="w3-display-middle w3-opacity w3-black"><h3 class="w3-center">ABOUT the Quiz</h3>
+      <p class="w3-center"><em>I love things</em></p>
+      <p>the quiz is basically a find the treasure type of quiz, where you have to click on the right word using the context,
+        but treasures are sometimes hidden within sands or in a vault and other times it's hidden in plain sight, right in front of you.
+         <span onclick="sherlocked()">one word</span>  maybe the answer to the get the rest of the quiz</p>
+    
+  <div class="w3-row">
+    <!-- the first answer-->
+    <div class="w3-hide-large" id="sherlock">
+      <div class="w3-center w3-padding-large">
+        <p><b>NICE</b></p><br>
+        <p class="w3-center"><em>You found the answer, And I can say that it's quite the easy one to figure out,
+           but from now on it shall get harder and harder to figure out and progress to the next level,you will feel like
+          <span onclick="project()">sherlock!</span> after solving every puzzle,the quiz will take several forms,
+            from clicking on words or photos to flipping..etc. you see solving is what this is about.
+             and seeing to dicover the hidden treasure in the end the one to solve it is a true puzzle solver.
+            
+          </em></p></div>
+  </div>
+    </div>
+      </div>
+        </div>  
+          </div>
+            </div>
+    <!--projection-->
+              <div class="lightnavybar w3-container" style="margin: 40px;">
+                <div id="projects" class="w3-hide-large">
+              <div  class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+                <img class="w3-image" src="Pics/Sherlock.jpg" alt="figure it out" width="100%" height="auto">
+                <div class="w3-display-middle w3-opacity w3-black">
+                  <p><b>You can say, this puzzle got Sher<b class="w3-black w3-opacity">un</b>locked</b></p><br>
+                  <p class="w3-center"><em>
+                      now pay attention because not everything is there infront of you, or is it?! now <span onclick="image()">picture</span>
+                       a mountain with a starry night 
+                      and a shooting star over it. what can you analyze from that. sometimes things are written or seen or understood.
+                      all what you gotta do is not to read or understand the meaning, but to see it with your own eyes.
+                    </em></p>
+          
+             <!--picture part-->
+             <div id="pic" class="w3-hide-large">
+              <div  class="w3-content w3-container w3-padding-64">
+                <div class="w3-topmiddle">
+                  <p>You can see it now,it's all coming together huh. you see the picture, it's worth a thousand words.
+                    but is it true or are we just saying random things and hoping it would be somehow understandable, 
+                  something tells me that I gave you the answer fast but you gotta <span onclick = "the_finals()">think</span> slow.
+                   because thinking leads to triumph,
+                as well as defeat.  </p><br>
+                  <img src="Pics/mountain.jpg" class="w3-round w3-image w3-opacity w3-hover-opacity-off" alt="Photo of Me">
+
+                  
+            </div>
+              </div>
+              </div>
+                  </div>
+              </div>
+              </div>
+              
+                   
+                
+
+                     <div id="final" class="w3-hide-large">
+                      <div  class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+                        <img class="w3-image" src="Pics/puzzle.jpg" alt="figure it out" width="100%" height="auto">
+                      <div  class="w3-display-middle w3-opacity w3-black">
+                        <div class="w3-center">
+                          <p> you really found the last part of the puzzle before you enter the finals, we have to project the thoughts
+                            to <span onclick="contactME()">carry on, keep up, pursue</span>...etc to the finals.
+                          <br><b>-(There is no going back from this point and further.-notice- remeber your answers or note them down.)-</b> </p><br>
+                    </div>
+                    </div>
+                      </div>
+                        </div> </div></div>
+
+
+
+                      <!--ending-->
+                     <div id="contact" class="w3-hide-large">
+                      <div  class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+                        <img class="w3-image" src="Pics/ending.jpg" alt="figure it out" width="100%" height="auto">
+                        <div  class="w3-display-middle w3-opacity w3-black">
+                          <div class="w3-center">
+                            <p>Here you are getting ready for the final puzzle and as you see we have been goind down the whole scale for this moment,
+                              you first have to scale down what you learned into a very small scale, like making a window smaller,take this with a grain of 
+                              salt as it not what you would expect, I am honest here...when I am saying that there is no words to press. this is taken into a new
+                              harder level that requires more than just looking at the screen, I want you to modify the size of the screen or get a screen that's small enough
+                              after that. tilting or being in the modest middle is where the treasure lies.    </p>
+                            </div></div>
+                        </div>
+
+                     </div> 
+
+                <!--end-->
+              
+             
+            
+        </section>
+
+
+
+
+
+
+
+        <!-- the medium / tablet/ horizintal version-->
+        <section id="middle" class="w3-hide-small w3-hide-large">
+          <div  class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+            <img class="w3-image" src="Pics/underconstruction.jpg" alt="figure it out" width="100%" height="auto">
+            <div  class="w3-display-middle w3-opacity w3-black">
+              <div class="w3-center">
+                <p>UNDERCONSTRUCTION(BETA)    </p>
+                </div></div>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+        <!--the mobile/phone version/down-scale in pc-->
+        <section id="phone" class="w3-hide-large w3-hide-medium">
+          <div  class="w3-display-container w3-content w3-wide" style="max-width:1500px;">
+            <img class="w3-image" src="Pics/underconstruction.jpg" alt="figure it out" width="100%" height="auto">
+            <div  class="w3-display-middle w3-opacity w3-black">
+              <div class="w3-center">
+                <p>UNDERCONSTRUCTION(BETA)    </p>
+                </div></div>
+            </div>
+
+
+        </section>
+        <script src="JS/javaScript.js"></script>
+    </body>
+</html>
